@@ -147,28 +147,12 @@ Cuando se supera el umbral:
 
 📸 Evidencias --- Vigilante de Recursos
 
-Captura 1 --- Código fuente
-
-Insertar aquí la captura del archivo vigilante_recursos.py.
-
-Descripción: Código utilizado para obtener el porcentaje de CPU y
-RAM y generar las alertas.
-
-CAPTURA AQUÍ
-
-Captura 2 --- Monitoreo en tiempo real
-
-Insertar aquí la captura de la terminal ejecutando
-vigilante_recursos.py.
-
-Descripción: Ejecución del programa mostrando el porcentaje de CPU y
-RAM.
 
 CAPTURA AQUÍ
 
 Captura 3 --- Administrador de tareas
 
-Insertar aquí la captura del Administrador de tareas de Windows.
+![alt text](<Captura de pantalla 2026-10-05 221137.png>)
 
 Descripción: Visualización del consumo de CPU y memoria RAM durante
 la ejecución del programa.
@@ -176,13 +160,10 @@ la ejecución del programa.
 CAPTURA AQUÍ
 
 Captura 4 --- Registro de alertas
-
-Insertar aquí la captura del archivo alertas_ram.txt.
+![alt text](image-3.png)
 
 Descripción: Registro generado automáticamente cuando se supera el
 umbral establecido.
-
-CAPTURA AQUÍ
 
 2. 💾 Simulador de Memoria Caché
 
@@ -257,41 +238,19 @@ medio de almacenamiento más lento.
 
 📸 Evidencias --- Simulador de Caché
 
-Captura 1 --- Código fuente
+Descripción: Archivo utilizado para realizar las pruebas de lectura: archivo_grande.txt
 
-Insertar aquí la captura de simulador_cache.py.
-
-Descripción: Código encargado de implementar la caché mediante un
-diccionario.
-
-CAPTURA AQUÍ
-
-Captura 2 --- Archivo utilizado
-
-Insertar aquí la captura de archivo_grande.txt dentro del
-proyecto.
-
-Descripción: Archivo utilizado para realizar las pruebas de lectura.
-
-CAPTURA AQUÍ
-
-Captura 3 --- Primera lectura / Cache Miss
-
-Insertar aquí la captura de la terminal mostrando CACHE MISS.
+ Primera lectura / Cache Miss
+![alt text](image-4.png)
 
 Descripción: Primera lectura del archivo, realizada directamente
 desde el disco.
 
-CAPTURA AQUÍ
+Lecturas posteriores / Cache Hit
+![alt text](image-5.png)
 
-Captura 4 --- Lecturas posteriores / Cache Hit
-
-Insertar aquí la captura mostrando CACHE HIT y los tiempos de
-lectura.
-
+![alt text](image-6.png)
 Descripción: Lecturas posteriores realizadas desde la caché.
-
-CAPTURA AQUÍ
 
 3. 🧠 Estrés de Memoria y Memoria Virtual
 
@@ -349,43 +308,23 @@ presión de memoria y otras condiciones.
 
 📸 Evidencias --- Estrés de Memoria
 
-Captura 1 --- Código fuente
+Código fuente
 
-Insertar aquí la captura de estres_memoria.py.
+![alt text](image-1.png)
 
-Descripción: Código utilizado para realizar la asignación controlada
-de memoria.
+Programa ejecutándose
 
-CAPTURA AQUÍ
-
-Captura 2 --- Programa ejecutándose
-
-Insertar aquí la captura de la terminal mientras aumenta la memoria
-asignada.
+![alt text](image-2.png)
 
 Descripción: Incremento progresivo de la memoria utilizada por el
 programa.
 
-CAPTURA AQUÍ
 
-Captura 3 --- Administrador de tareas
+Administrador de tareas
 
-Insertar aquí la captura de Rendimiento → Memoria en Windows.
-
+![alt text](<Captura de pantalla 2026-10-05 221137-1.png>)
 Descripción: Comportamiento de la memoria RAM del sistema durante la
 prueba.
-
-CAPTURA AQUÍ
-
-Captura 4 --- Límite de seguridad
-
-Insertar aquí la captura del programa mostrando que alcanzó el
-límite establecido.
-
-Descripción: Finalización controlada para evitar un consumo excesivo
-de memoria.
-
-CAPTURA AQUÍ
 
 4. ⚙️ Prioridad de Procesos
 
@@ -451,6 +390,7 @@ número de núcleos, carga del sistema, otros procesos y comportamiento
 del planificador.
 
 📸 Evidencias --- Prioridad de Procesos
+![alt text](image.png)
 
 Captura 1 --- Código fuente
 
@@ -459,35 +399,18 @@ Insertar aquí la captura de prioridad_procesos.py.
 Descripción: Código utilizado para establecer las prioridades de los
 procesos.
 
-CAPTURA AQUÍ
-
-Captura 2 --- Prioridad baja
-
-Insertar aquí la captura de la ejecución con prioridad baja.
+Prioridad baja
+![alt text](image-7.png)
 
 Descripción: Resultado y tiempo de ejecución del proceso con
 prioridad BELOW_NORMAL.
 
-CAPTURA AQUÍ
-
-Captura 3 --- Prioridad alta
-
-Insertar aquí la captura de la ejecución con prioridad alta.
+Prioridad alta
+![alt text](image-8.png)
 
 Descripción: Resultado y tiempo de ejecución del proceso con
 prioridad HIGH.
 
-CAPTURA AQUÍ
-
-Captura 4 --- Procesos ejecutándose simultáneamente
-
-Insertar aquí la captura de las dos terminales ejecutando los
-procesos.
-
-Descripción: Comparación de dos instancias del programa con
-diferentes niveles de prioridad.
-
-CAPTURA AQUÍ
 
 📊 Resumen de las prácticas
 
@@ -501,58 +424,7 @@ simulador_cache.py      Caché y acceso a datos  dict, time
 estres_memoria.py       Memoria virtual y       psutil, listas,
 gestión de RAM          time
 
-🧪 Resultados y observaciones
 
-Vigilante de Recursos
-
-Resultado obtenido:
-
-Escribir aquí los resultados observados durante la ejecución.
-
-Observaciones:
-
-Escribir aquí las observaciones sobre CPU, RAM y generación del
-archivo de alertas.
-
-Simulador de Caché
-
-Tiempo de primera lectura:
-
-_____ segundos
-
-Tiempo de lectura desde caché:
-
-_____ segundos
-
-Observación:
-
-Escribir aquí la diferencia observada entre CACHE MISS y
-CACHE HIT.
-
-Estrés de Memoria
-
-Límite configurado:
-
-1000 MB
-
-Comportamiento observado:
-
-Escribir aquí qué ocurrió con el consumo de RAM durante la prueba.
-
-Prioridad de Procesos
-
-Tiempo con prioridad baja:
-
-_____ segundos
-
-Tiempo con prioridad alta:
-
-_____ segundos
-
-Observación:
-
-Escribir aquí el comportamiento observado durante la ejecución
-simultánea.
 
 🎓 Conclusión
 
@@ -573,9 +445,10 @@ En conjunto, las prácticas permiten relacionar conceptos teóricos de
 Sistemas Operativos con implementaciones prácticas desarrolladas en
 Python.
 
-👩‍💻 Autora
+👩‍💻 Autoras
 
 Nombre: Helen Alejandra Moncayo
+      Juliana Rodriguez
 
 Programa: Ingeniería de Software
 
